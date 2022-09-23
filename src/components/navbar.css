@@ -1,0 +1,31 @@
+.navbar {
+  background: transparent !important;
+  transition: background 0.35s ease-in-out;
+  top: 0;
+}
+.textHackFlix {
+  font-family: "Paytone One";
+  color: #202020;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+}
+.textHackFlix,
+span {
+  display: block;
+  font-size: 27px;
+  line-height: 27px;
+  color: #f1ebe5;
+  text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff;
+  letter-spacing: -1px;
+}
+.link-search {
+  text-decoration: none;
+  color: beige;
+}
+.link-search:hover {
+  color: beige;
+}
+
+.navbar.active {
+  background-color: rgb(16, 15, 15, 0.8) !important;
+}
