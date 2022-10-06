@@ -11,7 +11,7 @@ export const Carousel = () => {
       );
       //756999 id REF 12,15
 
-      setFilms(response.data.images.backdrops.slice(8, 13));
+      setFilms(response.data.images.backdrops.slice(9, 13));
     };
     listFilms();
   }, []);
